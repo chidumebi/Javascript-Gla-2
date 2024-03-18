@@ -1,0 +1,65 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(38, 48, 76);
+}
+
+.main
+{
+    background-color: rgb(4, 77, 108);
+    margin-top: 50px;
+    height:450px;
+    padding: 25px;
+    position: relative;
+    padding-bottom:12px ;
+    color: antiquewhite;
+    display:block;
+   
+}
+
+select,button
+{
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgb(38, 48, 76);
+    color: antiquewhite;
+    
+}
+.header
+{
+    background-color:rgb(4, 77, 108,0.6);
+   
+    z-index: 1;
+    padding: 20px;
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+img
+{
+    float:left;
+    margin-right:30px;
+    height:200px;
+    width:200px;
+    margin-top: 50px;
+   
+}
+
+p
+{
+    margin-top:30px;
+    padding-left: 20px;
+    display:block;
+    
+}
+
+
+
+
