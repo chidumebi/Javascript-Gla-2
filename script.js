@@ -65,13 +65,13 @@ function filterProducts(category) {
 
 function getCategoryKey(category) {
     switch (category) {
-        case "Men's Wear":
+        case "men":
             return "men's clothing";
-        case "Women's Wear":
+        case "women":
             return "women's clothing";
-        case "Accessories":
+        case "accessory":
             return "jewelery";
-        case "Electronics":
+        case "electronic":
             return "electronics";
         default:
             return category;
